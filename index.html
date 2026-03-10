@@ -4,87 +4,65 @@
 <meta charset="UTF-8">
 <title>Amazing Minds | Telecom Infrastructure Services</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<style>
-
-body{
-font-family: Arial, sans-serif;
-margin:0;
-background:#f4f7fa;
-color:#333;
-}
-
-header{
-background:#0B3D5C;
-color:white;
-padding:40px 20px;
-text-align:center;
-}
-
-section{
-padding:60px 20px;
-max-width:1000px;
-margin:auto;
-}
-
-h1,h2{
-margin-bottom:15px;
-}
-
-.services{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
-
-.card{
-background:white;
-padding:20px;
-border-radius:8px;
-box-shadow:0 2px 8px rgba(0,0,0,0.1);
-}
-
-.stats{
-display:flex;
-flex-wrap:wrap;
-gap:30px;
-font-size:18px;
-}
-
-.contact-form input,
-.contact-form textarea{
-width:100%;
-padding:10px;
-margin-top:8px;
-margin-bottom:15px;
-border:1px solid #ccc;
-border-radius:5px;
-}
-
-button{
-background:#1F7A8C;
-color:white;
-border:none;
-padding:12px 20px;
-border-radius:5px;
-cursor:pointer;
-}
-
-footer{
-background:#0B3D5C;
-color:white;
-text-align:center;
-padding:30px;
-}
-
-</style>
+<link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-<header>
-<h1>Amazing Minds</h1>
-<p>Powering Telecom Infrastructure Across Tamil Nadu</p>
+<nav class="navbar">
+
+<div class="nav-container">
+
+<div class="logo">
+<a href="#">
+<img src="images/logo.png" alt="Amazing Minds Logo">
+</a>
+</div>
+
+<ul class="nav-links">
+
+<li><a href="#">Home</a></li>
+
+<li><a href="#telecom-services">Telecom Services</a></li>
+<li><a href="#track-record">Track Record</a></li>
+<li><a href="#it-services">IT Services</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</div>
+
+</nav>
+
+<header class="hero">
+
+<div class="hero-content">
+
+<h1>Enabling Infrastructure Expansion Across Tamil Nadu</h1>
+
+<p class="hero-subtitle">
+Amazing Minds partners with telecom operators, infrastructure providers, and growing brands to support 
+<strong>site acquisition, regulatory approvals, electrical infrastructure, and civil deployment</strong>.
+</p>
+
+<p class="hero-secondary">
+We are also exploring opportunities to support <strong>cloud infrastructure expansion, data center site acquisition, and digital platform modernization</strong>.
+</p>
+
+<div class="capability-highlights">
+
+<div class="highlight">✔ Telecom Infrastructure Execution</div>
+
+<div class="highlight">✔ Infrastructure Expansion Support</div>
+
+<div class="highlight">✔ Digital & Platform Services</div>
+
+</div>
+
+<a href="#services" class="cta-button">Explore Our Services</a>
+
+</div>
+
 </header>
 
 <section>
@@ -98,8 +76,7 @@ We specialize in site acquisition, ROW approvals, electrical grid connections an
 
 </section>
 
-<section>
-
+<section id="telecom-services">
 <h2>Telecom Infrastructure Services</h2>
 
 <div class="services">
@@ -128,7 +105,22 @@ We specialize in site acquisition, ROW approvals, electrical grid connections an
 
 </section>
 
-<section>
+<section id="track-record">
+
+<h2>Track Record</h2>
+
+<div class="stats">
+
+<div>250+ Site Acquisitions</div>
+<div>350+ Grid Connections</div>
+<div>700+ ROW Approvals</div>
+<div>300+ Tower Renewals</div>
+
+</div>
+
+</section>
+
+<section id="it-services">
 
 <h2>Digital & IT Services</h2>
 
@@ -167,22 +159,7 @@ In addition to telecom infrastructure services, Amazing Minds is expanding into 
 
 </section>
 
-<section>
-
-<h2>Track Record</h2>
-
-<div class="stats">
-
-<div>250+ Site Acquisitions</div>
-<div>350+ Grid Connections</div>
-<div>700+ ROW Approvals</div>
-<div>300+ Tower Renewals</div>
-
-</div>
-
-</section>
-
-<section>
+<section id="contact">
 
 <h2>Contact Us</h2>
 
